@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFunctions.MainPage"
+             Title="">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                Margin="0, 90, 0, 0"/>
+
+            <Label
+                x:Name="lblCodigo" 
+                Text="Código"
+                HorizontalOptions="Center"
+                WidthRequest="350"/>
+
+            <Entry
+                x:Name="etrCodigo"
+                HorizontalOptions="Center"
+                WidthRequest="350"
+                Margin="0, -20, 0, 0"/>
+
+            <Label
+                x:Name="lblNome" 
+                Text="Nome da espécie"
+                HorizontalOptions="Center"
+                WidthRequest="350"/>
+
+            <Entry
+                x:Name="etrNome"
+                HorizontalOptions="Center"
+                WidthRequest="350"
+                Margin="0, -20, 0, 0"/>
+
+            <Button
+                x:Name="btnInsert"
+                Text="Enviar" 
+                HorizontalOptions="Center" 
+                WidthRequest="250"
+                Margin="0, 10, 0, 0"
+                Clicked="btnInsertClicked"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
