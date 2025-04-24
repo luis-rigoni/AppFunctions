@@ -25,15 +25,15 @@ namespace AppFunctions.Helpers
             }
 
             public Task<List<Especie>> Update(Especie p) {
-                string sql = "UPDATE Especie SET Nome=? WHERE Codigo=?";
-                return _connection.QueryAsync<Especie>(sql, p.Nome, p.Codigo);
+                string sql = "UPDATE Especie SET espNome=? WHERE espId=?";
+                return _connection.QueryAsync<Especie>(sql, p.espNome, p.espId);
             }
 
             public Task<List<Especie>> Delete(int p) {
 
-                // _connection.Table<Especie>().DeleteAsync(i => i.Codigo == p);
+                // _connection.Table<Especie>().DeleteAsync(i => i.espId == p);
 
-                string sql = "DELETE Especie WHERE Codigo=?";
+                string sql = "DELETE Especie WHERE espId=?";
                 return _connection.QueryAsync<Especie>(sql, p);
             }
 
@@ -47,7 +47,7 @@ namespace AppFunctions.Helpers
             }
 
             public Task<List<Especie>> Search(string p) {
-                string sql = "SELECT * FROM Especie WHERE Nome LIKE %'" + p + "'% ";
+                string sql = "SELECT * FROM Especie WHERE espNome LIKE '%" + p + "%'";
                 return _connection.QueryAsync<Especie>(sql);
             }
 

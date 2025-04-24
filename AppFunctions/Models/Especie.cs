@@ -11,9 +11,9 @@ namespace AppFunctions.Models
     {
 
         [PrimaryKey, AutoIncrement]
-        public int Codigo {  get; set; }
+        public int espId {  get; set; }
 
-        public string Nome { get; set; }
+        public string espNome { get; set; }
 
     }
 }

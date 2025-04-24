@@ -11,24 +11,12 @@
       "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\models\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\models\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|c:\\users\\anchieta\\source\\repos\\appfunctions\\appfunctions\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF20E869-3183-4B39-B16A-E90D76B0CE7C}|AppFunctions\\AppFunctions.csproj|solutionrelative:appfunctions\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLiteDatabaseHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeDocumentMoniker": "AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeToolTip": "AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:25:07.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AppFunctions\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml.cs",
+              "RelativeToolTip": "AppFunctions\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:33:43.221Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -48,9 +62,9 @@
               "RelativeDocumentMoniker": "AppFunctions\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\MainPage.xaml",
               "RelativeToolTip": "AppFunctions\\MainPage.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAMwDYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T22:26:36.788Z",
+              "WhenOpened": "2025-04-24T22:40:58.414Z",
               "EditorCaption": ""
             },
             {
@@ -61,74 +75,9 @@
               "RelativeDocumentMoniker": "AppFunctions\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\MainPage.xaml.cs",
               "RelativeToolTip": "AppFunctions\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T22:26:08.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml.cs",
-              "RelativeDocumentMoniker": "AppFunctions\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml.cs",
-              "RelativeToolTip": "AppFunctions\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:47:04.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SQLiteDatabaseHelpers.cs",
-              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
-              "RelativeDocumentMoniker": "AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
-              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
-              "RelativeToolTip": "AppFunctions\\Helpers\\SQLiteDatabaseHelpers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:02:28.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Especie.cs",
-              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Models\\Especie.cs",
-              "RelativeDocumentMoniker": "AppFunctions\\Models\\Especie.cs",
-              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\Models\\Especie.cs",
-              "RelativeToolTip": "AppFunctions\\Models\\Especie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:54:04.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml",
-              "RelativeDocumentMoniker": "AppFunctions\\App.xaml",
-              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\App.xaml",
-              "RelativeToolTip": "AppFunctions\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T22:36:23.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppFunctions\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppShell.xaml",
-              "RelativeToolTip": "AppFunctions\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T22:26:55.782Z",
               "EditorCaption": ""
             }
           ]
