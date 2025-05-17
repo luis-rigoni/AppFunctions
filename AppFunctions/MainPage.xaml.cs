@@ -58,6 +58,76 @@ namespace AppFunctions
             }
 
         }
+
+        private async void MenuItem_Clicked(object sender, EventArgs e)
+        {
+            MenuItem selecionado = sender as MenuItem;
+            Especie p = selecionado.BindingContext as Especie;
+
+            bool confirma =
+                await DisplayAlert("Atenção", "Confirma a remoção?", "Sim", "Não");
+
+            if (confirma == true)
+            {
+                await App.Db.Delete(p.espId);
+                await DisplayAlert("Aviso", "Registro removido!", "OK");
+
+                await LoadingInfoEsp();
+            }
+        }
+
+        private void lstespecie_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Especie p = e.SelectedItem as Especie;
+
+            etrCodigo.Text = p.espId.ToString();
+            if (p.espNome != null)
+            {
+                etrNome.Text = p.espNome.ToString();
+            }
+
+        }
+
+        private void btnLimpar_Clicked(object sender, EventArgs e)
+        {
+            etrCodigo.Text = String.Empty;
+            etrNome.Text = String.Empty;
+        }
+
+        private async void btnAlterar_Clicked(object sender, EventArgs e)
+        {
+            if (etrCodigo.Text == null)
+            {
+                await DisplayAlert("Atenção", "Campo Código obrigatório!", "OK");
+            }
+            else
+            {
+                if (etrNome.Text == null)
+                {
+                    await DisplayAlert("Atenção", "Campo Nome obrigatório!", "OK");
+                }
+                else
+                {
+                    Especie p = new Especie();
+                    p.espId = int.Parse(etrCodigo.Text);
+                    p.espNome = etrNome.Text;
+
+                    await App.Db.Update(p);
+                    await DisplayAlert("Atenção", "Registro alterado!", "OK");
+
+                    await LoadingInfoEsp();
+                }
+            }
+
+        }
+
+        private void MenuItem_Clicked_1(object sender, EventArgs e)
+        {
+            MenuItem selecionado = sender as MenuItem;
+            Especie p = selecionado.BindingContext as Especie;
+
+            Navigation.PushAsync(new Views.EspecieEditar { BindingContext = p });
+        }
     }
 
 }

@@ -25,6 +25,7 @@
                     x:Name="etrCodigo"
                     HorizontalOptions="Center"
                     WidthRequest="350"
+                    IsEnabled="False"
                     Margin="0, -20, 0, 0"/>
 
                 <Label
@@ -55,7 +56,8 @@
                     TextChanged="searchBarChanged"/>
 
             <ListView
-                    x:Name="viewEspecie">
+                    x:Name="viewEspecie"
+                    ItemSelected="lstespecie_ItemSelected">
 
                 <ListView.Header>
 
@@ -75,6 +77,13 @@
                     <DataTemplate>
 
                         <ViewCell>
+
+                            <ViewCell.ContextActions>
+                                
+                                <MenuItem Text="Remover" Clicked="MenuItem_Clicked" />
+                                <MenuItem Text="Alterar" Clicked="MenuItem_Clicked_1"/>
+                                
+                            </ViewCell.ContextActions>
 
                             <Grid
                                ColumnDefinitions="*, *" 

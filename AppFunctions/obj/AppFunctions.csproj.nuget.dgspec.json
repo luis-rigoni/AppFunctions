@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj": {}
+    "C:\\Users\\Dudis\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj": {
+    "C:\\Users\\Dudis\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj",
+        "projectUniqueName": "C:\\Users\\Dudis\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj",
         "projectName": "AppFunctions",
-        "projectPath": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj",
-        "packagesPath": "C:\\Users\\Anchieta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anchieta\\source\\repos\\AppFunctions\\AppFunctions\\obj\\",
+        "projectPath": "C:\\Users\\Dudis\\source\\repos\\AppFunctions\\AppFunctions\\AppFunctions.csproj",
+        "packagesPath": "C:\\Users\\Dudis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dudis\\source\\repos\\AppFunctions\\AppFunctions\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anchieta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dudis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -82,7 +82,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             },
             "sqlite-net-sqlcipher": {
@@ -131,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -151,7 +151,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             },
             "sqlite-net-sqlcipher": {
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -208,7 +208,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             },
             "sqlite-net-sqlcipher": {
@@ -246,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -293,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
